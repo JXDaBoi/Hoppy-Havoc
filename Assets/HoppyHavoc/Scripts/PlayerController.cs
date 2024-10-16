@@ -208,6 +208,14 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private void OnCollisionExit(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = false;
+        }
+    }
+
     // New method to rotate playermodel__ based on the script attachee's velocity direction
     private void RotatePlayerModel()
     {
