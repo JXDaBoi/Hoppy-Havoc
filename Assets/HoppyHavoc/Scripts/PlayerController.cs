@@ -43,15 +43,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if (Cursor.lockState != CursorLockMode.Locked) return;
-
-        HandleMovementInput();
-        if (!isFacingCamera)
-        {
-            HandleCameraRotation(); // Handle free camera rotation when not facing the player
-        }
-
-        RotatePlayerModel(); // Rotate the playermodel__ based on velocity heading
+       
     }
 
     private void HandleCameraRotation()
@@ -77,6 +69,18 @@ public class PlayerController : MonoBehaviour
         }
 
         UpdateCameraPosition();
+
+
+        // below were in update
+        if (Cursor.lockState != CursorLockMode.Locked) return;
+
+        HandleMovementInput();
+        if (!isFacingCamera)
+        {
+            HandleCameraRotation(); // Handle free camera rotation when not facing the player
+        }
+
+        RotatePlayerModel(); // Rotate the playermodel__ based on velocity heading
     }
 
     private void HandleMovementInput()
