@@ -8,12 +8,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M_LowPolyGrass
-<<<<<<< HEAD
   m_Shader: {fileID: -6465566751694194690, guid: 7ec090436b691f644883236008431eb5,
     type: 3}
-=======
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
->>>>>>> b3cb34d (Grass model, wind + player interactive sway)
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -22,12 +18,7 @@ Material:
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-<<<<<<< HEAD
   stringTagMap: {}
-=======
-  stringTagMap:
-    RenderType: Opaque
->>>>>>> b3cb34d (Grass model, wind + player interactive sway)
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
@@ -108,11 +99,10 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-<<<<<<< HEAD
     - _GrassSpeed: 0.1
     - _GrassWindIntensity: 0.1
     - _GrassWindNoiseScale: 5
-    - _InteractionDistance: 1.88
+    - _InteractionDistance: 2.03
     - _InteractionStrength: 1
     - _Metallic: 0
     - _Metalness: 0
@@ -121,15 +111,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Smoothness: 0.09
-=======
-    - _Metallic: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.005
-    - _QueueOffset: 0
-    - _ReceiveShadows: 1
-    - _Smoothness: 0.5
->>>>>>> b3cb34d (Grass model, wind + player interactive sway)
+    - _Smoothness: 0.1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -139,17 +121,12 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-<<<<<<< HEAD
-    - _Color: {r: 0.050751824, g: 0.6132076, b: 0, a: 1}
+    - _Color: {r: 0.18623178, g: 0.8773585, b: 0.37866318, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _InteractionVector3: {r: 1, g: -0.5, b: 1, a: 0}
-=======
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
->>>>>>> b3cb34d (Grass model, wind + player interactive sway)
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &5285295209111611901
+--- !u!114 &8561403171473109168
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
