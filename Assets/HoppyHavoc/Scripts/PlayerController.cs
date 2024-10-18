@@ -43,7 +43,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-       
+        Shader.SetGlobalVector("_Player", transform.position);
     }
 
     private void HandleCameraRotation()

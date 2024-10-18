@@ -112,7 +112,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
       value: 
-      objectReference: {fileID: 8817204871155104738}
+      objectReference: {fileID: 1431102114946670549}
     - target: {fileID: 4742473837712756890, guid: 4bfc360f8c017c940b49dd689c491fc8,
         type: 3}
       propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
@@ -143,12 +143,6 @@ MeshRenderer:
 --- !u!23 &1431102114946670549 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -942161728458228989, guid: 4bfc360f8c017c940b49dd689c491fc8,
-    type: 3}
-  m_PrefabInstance: {fileID: 7003254843342300374}
-  m_PrefabAsset: {fileID: 0}
---- !u!23 &8817204871155104738 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: -7246979881144639692, guid: 4bfc360f8c017c940b49dd689c491fc8,
     type: 3}
   m_PrefabInstance: {fileID: 7003254843342300374}
   m_PrefabAsset: {fileID: 0}
